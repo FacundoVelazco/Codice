@@ -1,15 +1,24 @@
 {
-  "name": "prototipocodice",
+  "name": "codice",
   "version": "1.0.0",
-  "description": "prototipo",
+  "description": "Projecto codice",
   "main": "index.js",
   "scripts": {
+    "dev": "electron",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
-  "author": "",
+  "author": "Facundo Velazco",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^14.0.1"
-  }
+    "electron": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoVelazco/Codice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FacundoVelazco/Codice/issues"
+  },
+  "homepage": "https://github.com/FacundoVelazco/Codice#readme"
 }
